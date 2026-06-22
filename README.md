@@ -1,10 +1,10 @@
-*📧 Spam Email Detection System*
+## *📧 Spam Email Detection System*
 
 A machine learning web application that classifies messages as Spam or Not Spam (Ham) using Natural Language Processing (NLP) techniques.
 
 The project uses TF-IDF Vectorization and the Multinomial Naive Bayes algorithm to detect spam messages with high accuracy.
 
-*🚀 Features*
+## *🚀 Features*
 
 📩 Detects whether a message is spam or not
 🧠 Uses Machine Learning for prediction
@@ -13,7 +13,7 @@ The project uses TF-IDF Vectorization and the Multinomial Naive Bayes algorithm 
 💾 Saves the trained model for reuse
 ⚡ Real-time predictions
 
-*🛠️ Technologies Used*
+## *🛠️ Technologies Used*
 Python
 Flask
 Pandas
@@ -22,7 +22,7 @@ Joblib
 HTML
 CSS
 
-*📂 Project Structure*
+## *📂 Project Structure*
 spam-detection/
 │
 ├── app.py
@@ -38,7 +38,7 @@ spam-detection/
 └── static/
     └── style.css
 
-*📊 Dataset*
+## *📊 Dataset*
 
 This project uses the SMS Spam Collection Dataset.
 
@@ -52,7 +52,7 @@ v1 → Label (ham or spam)
 v2 → Message text
 
 
-*🧠 Machine Learning Workflow*
+## *🧠 Machine Learning Workflow*
 
 Load the dataset
 Remove unnecessary columns
@@ -66,7 +66,7 @@ Save the model and vectorizer
 Deploy using Flask
 
 
-*⚙️ Installation and Setup*
+## *⚙️ Installation and Setup*
 
 1. Clone the Repository
 git clone <repository-url>
@@ -89,7 +89,7 @@ Visit:
 
 http://127.0.0.1:5000
 
-*📈 Model Performance*
+## *📈 Model Performance*
 Algorithm: Multinomial Naive Bayes
 Vectorization: TF-IDF
 Accuracy: 96.68%
@@ -101,7 +101,7 @@ Spam (1)         1.00       0.75       0.86
 
 Overall Accuracy: 0.97
 
-*🖥️ Example Predictions*
+## *🖥️ Example Predictions*
 Input
 Congratulations! You won a free iPhone. Claim now!
 Output
@@ -112,7 +112,7 @@ Hey, are we meeting tomorrow at 10 AM?
 Output
 Not Spam ✅
 
-*🔮 Future Enhancements*
+## *🔮 Future Enhancements*
 📊 Display prediction confidence score
 🌙 Add dark mode
 📱 Improve mobile responsiveness
@@ -132,11 +132,11 @@ Saving and loading models with Joblib
 Flask web development
 Integrating machine learning with web applications
 
-*👩‍💻 Author*
+## *👩‍💻 Author*
 
 Sowmya M
 Machine Learning Enthusiast | Python Learner | Aspiring AI Engineer
 
-*📜 License*
+## *📜 License*
 
 This project is created for educational purposes and is free to use and modify.
